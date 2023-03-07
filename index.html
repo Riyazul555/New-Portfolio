@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Personal portfolio</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://kit.fontawesome.com/619798dd8a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="header">
+  <div class="container">
+  <nav>
+    <ul id="sidemenu">
+      <li><a href="#header">Home</a></li>
+       <li><a href="#about">About</a></li>
+       <li><a href="#services">Portfolio</a></li>
+       <li><a href="#portfolio">My Works</a></li>
+       <li><a href="#contact">Contact</a></li>
+      <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+    </ul>
+    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+  </nav>
+    <div class="header-text">
+        <p>A developer, a contributor and a programmer</p>
+        <h1>Hi, I'm <span>Riyazul</span><br>from Aligrah Muslim University</h1>
+    </div>
+  </div>
+  </div>
+<div id="about">
+  <div class="container">
+    <div class="row">
+      <div class="about-col-1">
+        <img src="pic44.png">
+      </div>
+      <div class="about-col-2">
+        <h1 class="sub-title">About Me</h1>
+        <br>
+        <p>Hey I am Riyazul, currently pursuing Bachelors in Technology from Aligarh Muslim University. I did my High school from Mount Assisi School, Bhagalpur, Bihar with Physics, Chemistry and Mathematics as main subjects. I am a technophile who loves technology and my thrust area include competitive programming, algorithm designing, web development ( basically frontend development ). I also loves exploring new things and apart from these, I am a sports nerd and a music lover. To know more about my skills, experience and so on click below.</p>
+        <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+        </div>
+        <div class="tab-contents active-tab" id="skills">
+           <ul>
+             <li><span>Algorithm Designing</span><br>Designed and Developed many small project algorithms in the field of ML</li>
+             <li><span>Web Development</span><br>Designed many projects on both frontend and backend</li>
+             <li><span>Competitive programming</span><br>More than 300 questions solved on Codechef and Leetcode and a div 3 programmer with 2 stars under my belt.</li>
+           </ul>
+          
+        </div>
+        <div class="tab-contents" id="experience">
+           <ul>
+             <li><span>2023-Current</span><br>Working as a Frontend Developer Intern at Grabtern</li>
+             <li><span>2022(August)-2022(December)</span><br>Worked as a Technical content writer at the AMUTC team</li>
+             <li><span>2022(May)-2022(October)</span><br>Worked as an Intake developer and Designer in the Formula One Student Racing Club of AMU - ZFR.</li>
+           </ul>
+          
+        </div>
+        <div class="tab-contents" id="education">
+           <ul>
+             <li><span>2021-2025</span><br>Bachelors In Technology from Aligarh Muslim University</li>
+             <li><span>2019-2021</span><br>High School from Mount Assisi School, Bhagalpur, Bihar.</li>
+             <li><span>2007-2019</span><br>Primary Education from Mount Assisi School, Bhagalpur, Bihar.</li>
+           </ul>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  
+<div id="services">
+  <div class="container">
+   <h1 class="sub-title">Portfolio</h1>
+    <div class="services-list">
+       <div>
+         <i class="fa-solid fa-code"></i>
+       <h2>Web Development</h2>
+         <p>Web Development is one of my favorite areas and my works in this sector include a music kart website to listen music, an ordinary signup page with a database and a professional portfolio website </p>
+         <a href="https://portfolio.md-riyazulriyaz.repl.co/">Learn more</a>
+       </div>
+      <div>
+        <i class="fa-solid fa-computer"></i>
+       <h2>Competitive Programming</h2>
+         <p>Apart from open source developments, I love DSAs and to tighten my grip in that, I have been working on Competitive Programming too. Some of the sites that I love to do competitive programming are Codechef and Leetcode. </p>
+         <a href="https://www.codechef.com/users/riyazul_786">Learn more</a>
+       </div>
+      <div>
+        <i class="fa-solid fa-robot"></i>
+       <h2>Algorithm Designing </h2>
+         <p>Now algorithm designing is one of the areas, I have been working on from a couple of months. My works in algorithm designing include small projects like wine-testing quality programs written in Python and some projects on ML.  </p>
+         <a href="https://www.kaggle.com/mdriyazulislam/code">Learn more</a>
+       </div>
+    </div>
+</div>
+</div>
+
+
+<div id="portfolio">
+   <div class="container">
+      <h1 class="sub-title">My Works</h1>
+     <div class="work-list">
+       <div class="work">
+         <img src="work-1.png">
+         <div class="layer">
+           <h3>Professional website</h3>
+           <p>This was the first professional looking website made by me using HTML, CSS, JS and Bootstrap </p>
+           <a href="https://New-website-using-bootstrap.md-riyazulriyaz.repl.co"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+         </div>
+       </div>
+       <div class="work">
+         <img src="work-2.png">
+           <div class="layer">
+           <h3>Music Kart</h3>
+           <p>I also created a music listening website using JS and API for music lovers to listen to good music rythms </p>
+           <a href="https://the-music-kart-api.md-riyazulriyaz.repl.co/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+         </div>
+       </div>
+       <div class="work">
+         <img src="work-3.png">
+           <div class="layer">
+           <h3>My Blog</h3>
+           <p>I created a live blog webapp which decribes me and my whole journey from an insipring teen to a skillful technical graduate</p>
+           <a href="https://harlequin-blackbuck-toga.cyclic.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+         </div>
+       </div>
+     </div>
+     <a href="#" class="btn">See More</a>
+   </div>
+</div>
+
+
+
+<div id="contact">
+  <div class="container">
+   <div class="row">
+     <div class="contact-left">
+       <h1 class="sub-title">Contact Me</h1>
+       <p><i class="fa-solid fa-paper-plane"></i> riyazulislam2003@gmail.com</p>
+       <p><i class="fa-solid fa-phone"></i> 8116324522</p>
+       <div class="social-icons">
+          <a href="https://www.instagram.com/hey_itz_riyaz/"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/md-riyazul-islam-21a959230"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://twitter.com/riyaz79056901?t=-qafp1l_skQ9IV8F0vZHiQ&s=08"><i class="fa-brands fa-twitter"></i></a>
+       </div>
+       <a href="MyCV.pdf" download class="btn btn2">Download CV</a>
+     </div>
+     <div class="contact-right">
+     <form name="submit-to-google-sheet">
+    <input type="text" name="Name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+       <button type="submit" class="btn btn2">Submit</button>
+     </form>
+       <span id="msg"></span>
+     </div>
+   </div>
+  </div>
+  <div class="copyright">
+    <p>Copyright © Md Riyazul Islam</p> 
+  </div>
+</div>
+
+
+
+
+
+  
+  <script>
+   var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+
+  <script>
+   var sidemeu = document.getElementById("sidemenu");
+    function openmenu(){
+      sidemeu.style.right="0";
+    }
+    function closemenu(){
+      sidemeu.style.right="-200px";
+    }
+
+
+    
+  </script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+
+  <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxPRQR6CSoHLQt0kRxUJzEQNuNMwU72Rzo44SacDEgtwUe3UdqCTh0btPNpaYwKHVJH/exec'
+  const form = document.forms['submit-to-google-sheet']
+   const msg = document.getElementById("msg");
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully. Thanks for responding"
+        setTimeout(function(){
+          msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+
+</html>
